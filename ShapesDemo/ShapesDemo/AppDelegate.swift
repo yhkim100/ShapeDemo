@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  ChartPlotDemo
+//  ShapesDemo
 //
-//  Created by Kim, Young-hoon on 12/4/18.
+//  Created by Kim, Young-hoon on 11/30/18.
 //  Copyright © 2018 Garmin International. All rights reserved.
 //
 

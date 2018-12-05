@@ -1,15 +1,15 @@
 //
-//  ChartPlotDemoTests.swift
-//  ChartPlotDemoTests
+//  ShapesDemoTests.swift
+//  ShapesDemoTests
 //
-//  Created by Kim, Young-hoon on 12/4/18.
+//  Created by Kim, Young-hoon on 11/30/18.
 //  Copyright © 2018 Garmin International. All rights reserved.
 //
 
 import XCTest
-@testable import ChartPlotDemo
+@testable import ShapesDemo
 
-class ChartPlotDemoTests: XCTestCase {
+class ShapesDemoTests: XCTestCase {
     
     override func setUp() {
         super.setUp()

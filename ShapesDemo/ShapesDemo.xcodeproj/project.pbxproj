@@ -7,64 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3768C55E21B6C4D800D4D6B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768C55D21B6C4D800D4D6B0 /* AppDelegate.swift */; };
-		3768C56021B6C4D800D4D6B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768C55F21B6C4D800D4D6B0 /* ViewController.swift */; };
-		3768C56321B6C4D800D4D6B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768C56121B6C4D800D4D6B0 /* Main.storyboard */; };
-		3768C56521B6C4DA00D4D6B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3768C56421B6C4DA00D4D6B0 /* Assets.xcassets */; };
-		3768C56821B6C4DA00D4D6B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3768C56621B6C4DA00D4D6B0 /* LaunchScreen.storyboard */; };
-		3768C57321B6C4DA00D4D6B0 /* ChartPlotDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768C57221B6C4DA00D4D6B0 /* ChartPlotDemoTests.swift */; };
-		3768C57E21B6C4DA00D4D6B0 /* ChartPlotDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3768C57D21B6C4DA00D4D6B0 /* ChartPlotDemoUITests.swift */; };
+		37E5449921B1BFE30041422A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5449821B1BFE30041422A /* AppDelegate.swift */; };
+		37E5449B21B1BFE30041422A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E5449A21B1BFE30041422A /* ViewController.swift */; };
+		37E5449E21B1BFE30041422A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E5449C21B1BFE30041422A /* Main.storyboard */; };
+		37E544A021B1BFE50041422A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37E5449F21B1BFE50041422A /* Assets.xcassets */; };
+		37E544A321B1BFE50041422A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37E544A121B1BFE50041422A /* LaunchScreen.storyboard */; };
+		37E544AE21B1BFE60041422A /* ShapesDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E544AD21B1BFE60041422A /* ShapesDemoTests.swift */; };
+		37E544B921B1BFE60041422A /* ShapesDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E544B821B1BFE60041422A /* ShapesDemoUITests.swift */; };
+		37E544C721B1C2BF0041422A /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37E544C621B1C2BF0041422A /* ShapeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3768C56F21B6C4DA00D4D6B0 /* PBXContainerItemProxy */ = {
+		37E544AA21B1BFE50041422A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3768C55221B6C4D800D4D6B0 /* Project object */;
+			containerPortal = 37E5448D21B1BFE30041422A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3768C55921B6C4D800D4D6B0;
-			remoteInfo = ChartPlotDemo;
+			remoteGlobalIDString = 37E5449421B1BFE30041422A;
+			remoteInfo = ShapesDemo;
 		};
-		3768C57A21B6C4DA00D4D6B0 /* PBXContainerItemProxy */ = {
+		37E544B521B1BFE60041422A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 3768C55221B6C4D800D4D6B0 /* Project object */;
+			containerPortal = 37E5448D21B1BFE30041422A /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3768C55921B6C4D800D4D6B0;
-			remoteInfo = ChartPlotDemo;
+			remoteGlobalIDString = 37E5449421B1BFE30041422A;
+			remoteInfo = ShapesDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3768C55A21B6C4D800D4D6B0 /* ChartPlotDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChartPlotDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3768C55D21B6C4D800D4D6B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3768C55F21B6C4D800D4D6B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3768C56221B6C4D800D4D6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3768C56421B6C4DA00D4D6B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3768C56721B6C4DA00D4D6B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3768C56921B6C4DA00D4D6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3768C56E21B6C4DA00D4D6B0 /* ChartPlotDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartPlotDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3768C57221B6C4DA00D4D6B0 /* ChartPlotDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPlotDemoTests.swift; sourceTree = "<group>"; };
-		3768C57421B6C4DA00D4D6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3768C57921B6C4DA00D4D6B0 /* ChartPlotDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChartPlotDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3768C57D21B6C4DA00D4D6B0 /* ChartPlotDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartPlotDemoUITests.swift; sourceTree = "<group>"; };
-		3768C57F21B6C4DA00D4D6B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E5449521B1BFE30041422A /* ShapesDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShapesDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E5449821B1BFE30041422A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		37E5449A21B1BFE30041422A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		37E5449D21B1BFE30041422A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		37E5449F21B1BFE50041422A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		37E544A221B1BFE50041422A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		37E544A421B1BFE50041422A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E544A921B1BFE50041422A /* ShapesDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E544AD21B1BFE60041422A /* ShapesDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesDemoTests.swift; sourceTree = "<group>"; };
+		37E544AF21B1BFE60041422A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E544B421B1BFE60041422A /* ShapesDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShapesDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		37E544B821B1BFE60041422A /* ShapesDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesDemoUITests.swift; sourceTree = "<group>"; };
+		37E544BA21B1BFE60041422A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		37E544C621B1C2BF0041422A /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3768C55721B6C4D800D4D6B0 /* Frameworks */ = {
+		37E5449221B1BFE30041422A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C56B21B6C4DA00D4D6B0 /* Frameworks */ = {
+		37E544A621B1BFE50041422A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C57621B6C4DA00D4D6B0 /* Frameworks */ = {
+		37E544B121B1BFE60041422A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -74,137 +76,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3768C55121B6C4D800D4D6B0 = {
+		37E5448C21B1BFE30041422A = {
 			isa = PBXGroup;
 			children = (
-				3768C55C21B6C4D800D4D6B0 /* ChartPlotDemo */,
-				3768C57121B6C4DA00D4D6B0 /* ChartPlotDemoTests */,
-				3768C57C21B6C4DA00D4D6B0 /* ChartPlotDemoUITests */,
-				3768C55B21B6C4D800D4D6B0 /* Products */,
+				37E5449721B1BFE30041422A /* ShapesDemo */,
+				37E544AC21B1BFE50041422A /* ShapesDemoTests */,
+				37E544B721B1BFE60041422A /* ShapesDemoUITests */,
+				37E5449621B1BFE30041422A /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3768C55B21B6C4D800D4D6B0 /* Products */ = {
+		37E5449621B1BFE30041422A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3768C55A21B6C4D800D4D6B0 /* ChartPlotDemo.app */,
-				3768C56E21B6C4DA00D4D6B0 /* ChartPlotDemoTests.xctest */,
-				3768C57921B6C4DA00D4D6B0 /* ChartPlotDemoUITests.xctest */,
+				37E5449521B1BFE30041422A /* ShapesDemo.app */,
+				37E544A921B1BFE50041422A /* ShapesDemoTests.xctest */,
+				37E544B421B1BFE60041422A /* ShapesDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3768C55C21B6C4D800D4D6B0 /* ChartPlotDemo */ = {
+		37E5449721B1BFE30041422A /* ShapesDemo */ = {
 			isa = PBXGroup;
 			children = (
-				3768C55D21B6C4D800D4D6B0 /* AppDelegate.swift */,
-				3768C55F21B6C4D800D4D6B0 /* ViewController.swift */,
-				3768C56121B6C4D800D4D6B0 /* Main.storyboard */,
-				3768C56421B6C4DA00D4D6B0 /* Assets.xcassets */,
-				3768C56621B6C4DA00D4D6B0 /* LaunchScreen.storyboard */,
-				3768C56921B6C4DA00D4D6B0 /* Info.plist */,
+				37E5449821B1BFE30041422A /* AppDelegate.swift */,
+				37E5449A21B1BFE30041422A /* ViewController.swift */,
+				37E5449C21B1BFE30041422A /* Main.storyboard */,
+				37E5449F21B1BFE50041422A /* Assets.xcassets */,
+				37E544A121B1BFE50041422A /* LaunchScreen.storyboard */,
+				37E544A421B1BFE50041422A /* Info.plist */,
+				37E544C621B1C2BF0041422A /* ShapeView.swift */,
 			);
-			path = ChartPlotDemo;
+			path = ShapesDemo;
 			sourceTree = "<group>";
 		};
-		3768C57121B6C4DA00D4D6B0 /* ChartPlotDemoTests */ = {
+		37E544AC21B1BFE50041422A /* ShapesDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				3768C57221B6C4DA00D4D6B0 /* ChartPlotDemoTests.swift */,
-				3768C57421B6C4DA00D4D6B0 /* Info.plist */,
+				37E544AD21B1BFE60041422A /* ShapesDemoTests.swift */,
+				37E544AF21B1BFE60041422A /* Info.plist */,
 			);
-			path = ChartPlotDemoTests;
+			path = ShapesDemoTests;
 			sourceTree = "<group>";
 		};
-		3768C57C21B6C4DA00D4D6B0 /* ChartPlotDemoUITests */ = {
+		37E544B721B1BFE60041422A /* ShapesDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				3768C57D21B6C4DA00D4D6B0 /* ChartPlotDemoUITests.swift */,
-				3768C57F21B6C4DA00D4D6B0 /* Info.plist */,
+				37E544B821B1BFE60041422A /* ShapesDemoUITests.swift */,
+				37E544BA21B1BFE60041422A /* Info.plist */,
 			);
-			path = ChartPlotDemoUITests;
+			path = ShapesDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3768C55921B6C4D800D4D6B0 /* ChartPlotDemo */ = {
+		37E5449421B1BFE30041422A /* ShapesDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3768C58221B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemo" */;
+			buildConfigurationList = 37E544BD21B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemo" */;
 			buildPhases = (
-				3768C55621B6C4D800D4D6B0 /* Sources */,
-				3768C55721B6C4D800D4D6B0 /* Frameworks */,
-				3768C55821B6C4D800D4D6B0 /* Resources */,
+				37E5449121B1BFE30041422A /* Sources */,
+				37E5449221B1BFE30041422A /* Frameworks */,
+				37E5449321B1BFE30041422A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = ChartPlotDemo;
-			productName = ChartPlotDemo;
-			productReference = 3768C55A21B6C4D800D4D6B0 /* ChartPlotDemo.app */;
+			name = ShapesDemo;
+			productName = ShapesDemo;
+			productReference = 37E5449521B1BFE30041422A /* ShapesDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3768C56D21B6C4DA00D4D6B0 /* ChartPlotDemoTests */ = {
+		37E544A821B1BFE50041422A /* ShapesDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3768C58521B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemoTests" */;
+			buildConfigurationList = 37E544C021B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemoTests" */;
 			buildPhases = (
-				3768C56A21B6C4DA00D4D6B0 /* Sources */,
-				3768C56B21B6C4DA00D4D6B0 /* Frameworks */,
-				3768C56C21B6C4DA00D4D6B0 /* Resources */,
+				37E544A521B1BFE50041422A /* Sources */,
+				37E544A621B1BFE50041422A /* Frameworks */,
+				37E544A721B1BFE50041422A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3768C57021B6C4DA00D4D6B0 /* PBXTargetDependency */,
+				37E544AB21B1BFE50041422A /* PBXTargetDependency */,
 			);
-			name = ChartPlotDemoTests;
-			productName = ChartPlotDemoTests;
-			productReference = 3768C56E21B6C4DA00D4D6B0 /* ChartPlotDemoTests.xctest */;
+			name = ShapesDemoTests;
+			productName = ShapesDemoTests;
+			productReference = 37E544A921B1BFE50041422A /* ShapesDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		3768C57821B6C4DA00D4D6B0 /* ChartPlotDemoUITests */ = {
+		37E544B321B1BFE60041422A /* ShapesDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3768C58821B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemoUITests" */;
+			buildConfigurationList = 37E544C321B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemoUITests" */;
 			buildPhases = (
-				3768C57521B6C4DA00D4D6B0 /* Sources */,
-				3768C57621B6C4DA00D4D6B0 /* Frameworks */,
-				3768C57721B6C4DA00D4D6B0 /* Resources */,
+				37E544B021B1BFE60041422A /* Sources */,
+				37E544B121B1BFE60041422A /* Frameworks */,
+				37E544B221B1BFE60041422A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				3768C57B21B6C4DA00D4D6B0 /* PBXTargetDependency */,
+				37E544B621B1BFE60041422A /* PBXTargetDependency */,
 			);
-			name = ChartPlotDemoUITests;
-			productName = ChartPlotDemoUITests;
-			productReference = 3768C57921B6C4DA00D4D6B0 /* ChartPlotDemoUITests.xctest */;
+			name = ShapesDemoUITests;
+			productName = ShapesDemoUITests;
+			productReference = 37E544B421B1BFE60041422A /* ShapesDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3768C55221B6C4D800D4D6B0 /* Project object */ = {
+		37E5448D21B1BFE30041422A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Garmin International";
 				TargetAttributes = {
-					3768C55921B6C4D800D4D6B0 = {
+					37E5449421B1BFE30041422A = {
 						CreatedOnToolsVersion = 9.3.1;
 					};
-					3768C56D21B6C4DA00D4D6B0 = {
+					37E544A821B1BFE50041422A = {
 						CreatedOnToolsVersion = 9.3.1;
-						TestTargetID = 3768C55921B6C4D800D4D6B0;
+						TestTargetID = 37E5449421B1BFE30041422A;
 					};
-					3768C57821B6C4DA00D4D6B0 = {
+					37E544B321B1BFE60041422A = {
 						CreatedOnToolsVersion = 9.3.1;
-						TestTargetID = 3768C55921B6C4D800D4D6B0;
+						TestTargetID = 37E5449421B1BFE30041422A;
 					};
 				};
 			};
-			buildConfigurationList = 3768C55521B6C4D800D4D6B0 /* Build configuration list for PBXProject "ChartPlotDemo" */;
+			buildConfigurationList = 37E5449021B1BFE30041422A /* Build configuration list for PBXProject "ShapesDemo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -212,37 +215,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 3768C55121B6C4D800D4D6B0;
-			productRefGroup = 3768C55B21B6C4D800D4D6B0 /* Products */;
+			mainGroup = 37E5448C21B1BFE30041422A;
+			productRefGroup = 37E5449621B1BFE30041422A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3768C55921B6C4D800D4D6B0 /* ChartPlotDemo */,
-				3768C56D21B6C4DA00D4D6B0 /* ChartPlotDemoTests */,
-				3768C57821B6C4DA00D4D6B0 /* ChartPlotDemoUITests */,
+				37E5449421B1BFE30041422A /* ShapesDemo */,
+				37E544A821B1BFE50041422A /* ShapesDemoTests */,
+				37E544B321B1BFE60041422A /* ShapesDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3768C55821B6C4D800D4D6B0 /* Resources */ = {
+		37E5449321B1BFE30041422A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768C56821B6C4DA00D4D6B0 /* LaunchScreen.storyboard in Resources */,
-				3768C56521B6C4DA00D4D6B0 /* Assets.xcassets in Resources */,
-				3768C56321B6C4D800D4D6B0 /* Main.storyboard in Resources */,
+				37E544A321B1BFE50041422A /* LaunchScreen.storyboard in Resources */,
+				37E544A021B1BFE50041422A /* Assets.xcassets in Resources */,
+				37E5449E21B1BFE30041422A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C56C21B6C4DA00D4D6B0 /* Resources */ = {
+		37E544A721B1BFE50041422A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C57721B6C4DA00D4D6B0 /* Resources */ = {
+		37E544B221B1BFE60041422A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -252,59 +255,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3768C55621B6C4D800D4D6B0 /* Sources */ = {
+		37E5449121B1BFE30041422A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768C56021B6C4D800D4D6B0 /* ViewController.swift in Sources */,
-				3768C55E21B6C4D800D4D6B0 /* AppDelegate.swift in Sources */,
+				37E544C721B1C2BF0041422A /* ShapeView.swift in Sources */,
+				37E5449B21B1BFE30041422A /* ViewController.swift in Sources */,
+				37E5449921B1BFE30041422A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C56A21B6C4DA00D4D6B0 /* Sources */ = {
+		37E544A521B1BFE50041422A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768C57321B6C4DA00D4D6B0 /* ChartPlotDemoTests.swift in Sources */,
+				37E544AE21B1BFE60041422A /* ShapesDemoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3768C57521B6C4DA00D4D6B0 /* Sources */ = {
+		37E544B021B1BFE60041422A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3768C57E21B6C4DA00D4D6B0 /* ChartPlotDemoUITests.swift in Sources */,
+				37E544B921B1BFE60041422A /* ShapesDemoUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		3768C57021B6C4DA00D4D6B0 /* PBXTargetDependency */ = {
+		37E544AB21B1BFE50041422A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3768C55921B6C4D800D4D6B0 /* ChartPlotDemo */;
-			targetProxy = 3768C56F21B6C4DA00D4D6B0 /* PBXContainerItemProxy */;
+			target = 37E5449421B1BFE30041422A /* ShapesDemo */;
+			targetProxy = 37E544AA21B1BFE50041422A /* PBXContainerItemProxy */;
 		};
-		3768C57B21B6C4DA00D4D6B0 /* PBXTargetDependency */ = {
+		37E544B621B1BFE60041422A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3768C55921B6C4D800D4D6B0 /* ChartPlotDemo */;
-			targetProxy = 3768C57A21B6C4DA00D4D6B0 /* PBXContainerItemProxy */;
+			target = 37E5449421B1BFE30041422A /* ShapesDemo */;
+			targetProxy = 37E544B521B1BFE60041422A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		3768C56121B6C4D800D4D6B0 /* Main.storyboard */ = {
+		37E5449C21B1BFE30041422A /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3768C56221B6C4D800D4D6B0 /* Base */,
+				37E5449D21B1BFE30041422A /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3768C56621B6C4DA00D4D6B0 /* LaunchScreen.storyboard */ = {
+		37E544A121B1BFE50041422A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3768C56721B6C4DA00D4D6B0 /* Base */,
+				37E544A221B1BFE50041422A /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -312,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3768C58021B6C4DA00D4D6B0 /* Debug */ = {
+		37E544BB21B1BFE60041422A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -372,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		3768C58121B6C4DA00D4D6B0 /* Release */ = {
+		37E544BC21B1BFE60041422A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -426,164 +430,166 @@
 			};
 			name = Release;
 		};
-		3768C58321B6C4DA00D4D6B0 /* Debug */ = {
+		37E544BE21B1BFE60041422A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemo/Info.plist;
+				INFOPLIST_FILE = ShapesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		3768C58421B6C4DA00D4D6B0 /* Release */ = {
+		37E544BF21B1BFE60041422A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemo/Info.plist;
+				INFOPLIST_FILE = ShapesDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		3768C58621B6C4DA00D4D6B0 /* Debug */ = {
+		37E544C121B1BFE60041422A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemoTests/Info.plist;
+				INFOPLIST_FILE = ShapesDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartPlotDemo.app/ChartPlotDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapesDemo.app/ShapesDemo";
 			};
 			name = Debug;
 		};
-		3768C58721B6C4DA00D4D6B0 /* Release */ = {
+		37E544C221B1BFE60041422A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemoTests/Info.plist;
+				INFOPLIST_FILE = ShapesDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChartPlotDemo.app/ChartPlotDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShapesDemo.app/ShapesDemo";
 			};
 			name = Release;
 		};
-		3768C58921B6C4DA00D4D6B0 /* Debug */ = {
+		37E544C421B1BFE60041422A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemoUITests/Info.plist;
+				INFOPLIST_FILE = ShapesDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChartPlotDemo;
+				TEST_TARGET_NAME = ShapesDemo;
 			};
 			name = Debug;
 		};
-		3768C58A21B6C4DA00D4D6B0 /* Release */ = {
+		37E544C521B1BFE60041422A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 66U3J357XQ;
-				INFOPLIST_FILE = ChartPlotDemoUITests/Info.plist;
+				INFOPLIST_FILE = ShapesDemoUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ChartPlotDemoUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.garmin.ShapesDemoUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ChartPlotDemo;
+				TEST_TARGET_NAME = ShapesDemo;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3768C55521B6C4D800D4D6B0 /* Build configuration list for PBXProject "ChartPlotDemo" */ = {
+		37E5449021B1BFE30041422A /* Build configuration list for PBXProject "ShapesDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3768C58021B6C4DA00D4D6B0 /* Debug */,
-				3768C58121B6C4DA00D4D6B0 /* Release */,
+				37E544BB21B1BFE60041422A /* Debug */,
+				37E544BC21B1BFE60041422A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3768C58221B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemo" */ = {
+		37E544BD21B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3768C58321B6C4DA00D4D6B0 /* Debug */,
-				3768C58421B6C4DA00D4D6B0 /* Release */,
+				37E544BE21B1BFE60041422A /* Debug */,
+				37E544BF21B1BFE60041422A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3768C58521B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemoTests" */ = {
+		37E544C021B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3768C58621B6C4DA00D4D6B0 /* Debug */,
-				3768C58721B6C4DA00D4D6B0 /* Release */,
+				37E544C121B1BFE60041422A /* Debug */,
+				37E544C221B1BFE60041422A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3768C58821B6C4DA00D4D6B0 /* Build configuration list for PBXNativeTarget "ChartPlotDemoUITests" */ = {
+		37E544C321B1BFE60041422A /* Build configuration list for PBXNativeTarget "ShapesDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3768C58921B6C4DA00D4D6B0 /* Debug */,
-				3768C58A21B6C4DA00D4D6B0 /* Release */,
+				37E544C421B1BFE60041422A /* Debug */,
+				37E544C521B1BFE60041422A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3768C55221B6C4D800D4D6B0 /* Project object */;
+	rootObject = 37E5448D21B1BFE30041422A /* Project object */;
 }
