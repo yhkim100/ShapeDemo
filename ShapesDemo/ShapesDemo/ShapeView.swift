@@ -14,12 +14,14 @@ class ShapeView: UIView {
     let size: CGFloat = 150.0
     let lineWidth: CGFloat = 3
     var fillColor: UIColor!
+    var path: UIBezierPath!
     
     init(origin: CGPoint) {
         super.init(frame: CGRect(x: 0.0, y: 0.0, width: size, height: size))
         self.center = origin;
         self.backgroundColor = UIColor.clear
         self.fillColor = randomColor()
+        self.path = randomPath()
         initGestureRecognizers()
     }
     
@@ -28,12 +30,23 @@ class ShapeView: UIView {
     }
     
     override func draw(_ rect: CGRect) {
-        
-        let insetRect = rect.insetBy(dx: lineWidth/2, dy: lineWidth/2)
-        let path = UIBezierPath(roundedRect: insetRect, cornerRadius: 10)
-        
         self.fillColor.setFill()
-        path.fill()
+        self.path.fill()
+        
+        //randomly assign hatching
+        switch arc4random() % 3 {
+        case 0:
+            let color = UIColor(patternImage: UIImage(named: "hatch_1")!)
+            color.setFill()
+            path.fill()
+        case 1:
+            let color = UIColor(patternImage: UIImage(named: "hatch_2")!)
+            color.setFill()
+            path.fill()
+        default:
+            //Leave out texture
+            break
+        }
         
         path.lineWidth = lineWidth
         UIColor.black.setStroke()
@@ -78,9 +91,36 @@ class ShapeView: UIView {
         rotationGR.rotation = 0.0
     }
     
+    //Generate and return a random color
     func randomColor() -> UIColor {
         let hue:CGFloat = CGFloat(Float(arc4random()) / Float(UINT32_MAX))
         return UIColor(hue: hue, saturation: 0.8, brightness: 1.0, alpha: 0.8)
     }
     
+    //Generate and return a random shape
+    func randomPath() -> UIBezierPath {
+        let rect = CGRect(x: 0.0, y: 0.0, width: size, height: size)
+        let insetRect = rect.insetBy(dx: lineWidth/2, dy: lineWidth/2)
+        
+        let shapeType = arc4random() % 3
+        switch shapeType {
+        case 0:
+            return UIBezierPath(roundedRect: insetRect, cornerRadius: 10.0)
+        case 1:
+            return UIBezierPath(ovalIn: insetRect)
+        default:
+            return trianglePathInRect(rect: insetRect)
+        }
+    }
+    
+    func trianglePathInRect(rect:CGRect) -> UIBezierPath {
+        let path = UIBezierPath()
+        
+        path.move(to: CGPoint.init(x:rect.width / 2.0, y: rect.origin.y))
+        path.addLine(to: CGPoint.init(x: rect.width, y: rect.height))
+        path.addLine(to: CGPoint.init(x: rect.origin.x, y: rect.height))
+        path.close()
+
+        return path
+    }
 }
